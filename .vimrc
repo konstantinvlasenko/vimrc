@@ -25,6 +25,9 @@ map <F10> <ESC>:wa<CR>
 imap <A-F10> <ESC>:wqa<CR>
 map <A-F10> <ESC>:wqa<CR>
 
+map <Tab> <Esc>:browse tabnext<CR>
+map <C-o> <Esc>:browse tabnew<CR>:e ./<CR>
+
 set expandtab
 set shiftwidth=2
 set softtabstop=2
